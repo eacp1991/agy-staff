@@ -1,0 +1,314 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="1170" viewBox="0 0 920 1170" role="img" aria-label="agy-staff Bench v1, a harness and orchestration bench: Claude Code and Codex, solo, with their own subagents, and with agy, on SWE-bench Verified, SWE-Atlas QnA, DeepSearchQA; resolved tasks, host cost, total cost and median time" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif">
+<defs><linearGradient gradientUnits="userSpaceOnUse" id="codexgrad" x1="12" x2="12" y1="3" y2="21"><stop stop-color="#B1A7FF"/><stop offset=".5" stop-color="#7A9DFF"/><stop offset="1" stop-color="#3941FF"/></linearGradient><pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><rect x="8" y="8" width="1.4" height="1.4" fill="#E3E5E8"/></pattern><style>@font-face{font-family:'num-source-serif';font-weight:400;src:url(data:font/woff2;base64,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) format('woff2')}@font-face{font-family:'num-source-serif';font-weight:700;src:url(data:font/woff2;base64,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) format('woff2')}</style></defs>
+<rect x="0.75" y="0.75" width="918.5" height="1168.5" rx="8" fill="#F8F9FA" stroke="#202124" stroke-width="1.5"/>
+<rect x="2" y="2" width="916" height="1166" rx="7" fill="url(#dots)"/>
+<g stroke="#4285F4" stroke-width="1.5" opacity="0.85"><line x1="20" y1="26" x2="32" y2="26"/><line x1="26" y1="20" x2="26" y2="32"/></g>
+<g stroke="#4285F4" stroke-width="1.5" opacity="0.85"><line x1="888" y1="1144" x2="900" y2="1144"/><line x1="894" y1="1138" x2="894" y2="1150"/></g>
+<svg x="36" y="38" width="64" height="64" viewBox="0 0 16 16"><g shape-rendering="crispEdges">
+<g fill="#BDC1C6" transform="translate(1,1)"><rect x="7" y="1" width="5" height="1"/><rect x="7" y="2" width="6" height="1"/><rect x="7" y="3" width="6" height="1"/><rect x="7" y="4" width="5" height="1"/><rect x="7" y="5" width="1" height="1"/><rect x="7" y="6" width="1" height="1"/><rect x="2" y="7" width="11" height="1"/><rect x="2" y="8" width="1" height="1"/><rect x="7" y="8" width="1" height="1"/><rect x="12" y="8" width="1" height="1"/><rect x="2" y="9" width="1" height="1"/><rect x="7" y="9" width="1" height="1"/><rect x="12" y="9" width="1" height="1"/><rect x="1" y="10" width="3" height="1"/><rect x="6" y="10" width="3" height="1"/><rect x="11" y="10" width="3" height="1"/><rect x="1" y="11" width="1" height="1"/><rect x="3" y="11" width="1" height="1"/><rect x="6" y="11" width="1" height="1"/><rect x="8" y="11" width="1" height="1"/><rect x="11" y="11" width="1" height="1"/><rect x="13" y="11" width="1" height="1"/><rect x="1" y="12" width="1" height="1"/><rect x="3" y="12" width="1" height="1"/><rect x="6" y="12" width="1" height="1"/><rect x="8" y="12" width="1" height="1"/><rect x="11" y="12" width="1" height="1"/><rect x="13" y="12" width="1" height="1"/><rect x="1" y="13" width="1" height="1"/><rect x="3" y="13" width="1" height="1"/><rect x="6" y="13" width="1" height="1"/><rect x="8" y="13" width="1" height="1"/><rect x="11" y="13" width="1" height="1"/><rect x="13" y="13" width="1" height="1"/></g>
+<g fill="#202124"><rect x="7" y="1" width="1" height="1"/><rect x="7" y="2" width="1" height="1"/><rect x="7" y="3" width="1" height="1"/><rect x="7" y="4" width="1" height="1"/><rect x="7" y="5" width="1" height="1"/><rect x="7" y="6" width="1" height="1"/><rect x="2" y="7" width="11" height="1"/><rect x="2" y="8" width="1" height="1"/><rect x="7" y="8" width="1" height="1"/><rect x="12" y="8" width="1" height="1"/></g>
+<g fill="#4285F4"><rect x="8" y="1" width="4" height="1"/><rect x="8" y="2" width="5" height="1"/><rect x="8" y="3" width="5" height="1"/><rect x="8" y="4" width="4" height="1"/></g>
+<g fill="#3289FC"><rect x="1" y="11" width="1" height="1"/><rect x="3" y="11" width="1" height="1"/><rect x="6" y="11" width="1" height="1"/><rect x="8" y="11" width="1" height="1"/><rect x="11" y="11" width="1" height="1"/><rect x="13" y="11" width="1" height="1"/><rect x="1" y="12" width="1" height="1"/><rect x="3" y="12" width="1" height="1"/><rect x="6" y="12" width="1" height="1"/><rect x="8" y="12" width="1" height="1"/><rect x="11" y="12" width="1" height="1"/><rect x="13" y="12" width="1" height="1"/><rect x="1" y="13" width="1" height="1"/><rect x="3" y="13" width="1" height="1"/><rect x="6" y="13" width="1" height="1"/><rect x="8" y="13" width="1" height="1"/><rect x="11" y="13" width="1" height="1"/><rect x="13" y="13" width="1" height="1"/></g>
+<g fill="#DB863D"><rect x="2" y="9" width="1" height="1"/><rect x="7" y="9" width="1" height="1"/><rect x="12" y="9" width="1" height="1"/><rect x="1" y="10" width="3" height="1"/><rect x="6" y="10" width="3" height="1"/><rect x="11" y="10" width="3" height="1"/></g>
+</g></svg>
+<text x="116" y="44" font-size="12.5" font-weight="700" fill="#1A73E8" letter-spacing="1.6">HARNESS &amp; ORCHESTRATION BENCH</text>
+<text x="116.0" y="78.0" font-size="28" font-weight="700" fill="#202124" text-anchor="start">agy-staff Bench v1</text>
+<text x="116.0" y="104.0" font-size="14" font-weight="400" fill="#5F6368" text-anchor="start">Claude Code and Codex on 3 benchmarks: solo, with their own subagents, and with agy.</text>
+<rect x="737.1" y="34" width="142.9" height="26" rx="13" fill="#FFFFFF" stroke="#DADCE0"/>
+<text x="749.1" y="51.0" font-size="12" font-weight="400" fill="#5F6368" text-anchor="start">built on</text>
+<svg x="799.0" y="38.0" width="18" height="18" viewBox="0 0 64 64" shape-rendering="auto"><circle cx="32" cy="32" r="32" fill="#000"/><g fill="#fff" transform="translate(3.6679 37.9611) scale(0.00832562 -0.00832562)"><path transform="translate(0 0)" d="M854 0V1432H1040V0ZM160 0V1432H346V0ZM265 646V820H937V646Z"/><path transform="translate(1100 0)" d="M58 0 503 1432H700L1143 0H947L642 1063L602 1218H596L555 1063L252 0ZM254 369 306 536H892L945 369Z"/><path transform="translate(2200 0)" d="M160 0V1432H602Q741 1432 843.0 1380.0Q945 1328 1001.5 1233.0Q1058 1138 1058 1010V990Q1058 862 1001.5 767.0Q945 672 842.5 620.0Q740 568 602 568H264V734H598Q726 734 798.0 800.0Q870 866 870 982V1012Q870 1128 798.0 1194.0Q726 1260 598 1260H344V0ZM935 0 540 643H744L1146 0Z"/><path transform="translate(3300 0)" d="M172 0V1432H618Q805 1432 911.0 1338.0Q1017 1244 1017 1089V1061Q1017 949 963.5 869.0Q910 789 811 752V745Q934 719 1004.0 628.5Q1074 538 1074 407V379Q1074 265 1021.5 179.5Q969 94 874.5 47.0Q780 0 653 0ZM354 164H635Q755 164 820.5 226.0Q886 288 886 403V427Q886 542 819.0 604.0Q752 666 624 666H295V820H601Q711 820 770.0 875.5Q829 931 829 1034V1054Q829 1158 771.0 1213.0Q713 1268 601 1268H354Z"/><path transform="translate(4400 0)" d="M76 697V735Q76 961 139.5 1124.0Q203 1287 320.5 1375.5Q438 1464 600.0 1464.0Q762 1464 879.5 1375.5Q997 1287 1060.5 1124.0Q1124 961 1124 735V697Q1124 471 1060.5 308.0Q997 145 879.5 56.5Q762 -32 600.0 -32.0Q438 -32 320.5 56.5Q203 145 139.5 308.0Q76 471 76 697ZM934 692V740Q934 1002 846.5 1145.0Q759 1288 600.0 1288.0Q441 1288 353.5 1145.0Q266 1002 266 740V692Q266 428 353.0 286.0Q440 144 600.5 144.0Q761 144 847.5 286.0Q934 428 934 692Z"/><path transform="translate(5500 0)" d="M160 0V1432H602Q741 1432 843.0 1380.0Q945 1328 1001.5 1233.0Q1058 1138 1058 1010V990Q1058 862 1001.5 767.0Q945 672 842.5 620.0Q740 568 602 568H264V734H598Q726 734 798.0 800.0Q870 866 870 982V1012Q870 1128 798.0 1194.0Q726 1260 598 1260H344V0ZM935 0 540 643H744L1146 0Z"/></g></svg>
+<text x="823.0" y="51.5" font-size="13" font-weight="700" fill="#202124" text-anchor="start">Harbor</text>
+<text x="880.0" y="82" font-size="11.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#5F6368" text-anchor="end">agy-staff 0.7.3 (f00d149)</text>
+<rect x="40" y="126" width="840" height="794" rx="10" fill="#FFFFFF" stroke="#DADCE0" stroke-width="1.5"/>
+<line x1="52.0" y1="278.0" x2="868.0" y2="278.0" stroke="#202124" stroke-width="1"/>
+<rect x="455.7" y="202" width="94.3" height="708.0" rx="9" fill="#F5F8FF" stroke="#4285F4" stroke-width="1.5"/>
+<rect x="492.8" y="196" width="20" height="10" rx="2" fill="#202124"/><rect x="497.8" y="199" width="10" height="3" fill="#E8EAED"/>
+<rect x="768.7" y="202" width="94.3" height="708.0" rx="9" fill="#F5F8FF" stroke="#4285F4" stroke-width="1.5"/>
+<rect x="805.8" y="196" width="20" height="10" rx="2" fill="#202124"/><rect x="810.8" y="199" width="10" height="3" fill="#E8EAED"/>
+<svg x="337.7" y="144.0" width="22" height="22" viewBox="0 0 24 24" shape-rendering="auto"><path clip-rule="evenodd" d="M20.998 10.949H24v3.102h-3v3.028h-1.487V20H18v-2.921h-1.487V20H15v-2.921H9V20H7.488v-2.921H6V20H4.487v-2.921H3V14.05H0V10.95h3V5h17.998v5.949zM6 10.949h1.488V8.102H6v2.847zm10.51 0H18V8.102h-1.49v2.847z" fill="#D97757" fill-rule="evenodd"/></svg>
+<text x="366.7" y="161.0" font-size="16" font-weight="700" fill="#202124" text-anchor="start">Claude Code</text>
+<text x="398.5" y="180" font-size="11.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#5F6368" text-anchor="middle">v2.1.296 · Claude Opus 5.5 · xhigh</text>
+<rect x="252.0" y="189" width="293.0" height="3" rx="1.5" fill="#D97757"/>
+<svg x="674.2" y="144.0" width="22" height="22" viewBox="0 0 24 24" shape-rendering="auto"><path d="M9.064 3.344a4.578 4.578 0 012.285-.312c1 .115 1.891.54 2.673 1.275.01.01.024.017.037.021a.09.09 0 00.043 0 4.55 4.55 0 013.046.275l.047.022.116.057a4.581 4.581 0 012.188 2.399c.209.51.313 1.041.315 1.595a4.24 4.24 0 01-.134 1.223.123.123 0 00.03.115c.594.607.988 1.33 1.183 2.17.289 1.425-.007 2.71-.887 3.854l-.136.166a4.548 4.548 0 01-2.201 1.388.123.123 0 00-.081.076c-.191.551-.383 1.023-.74 1.494-.9 1.187-2.222 1.846-3.711 1.838-1.187-.006-2.239-.44-3.157-1.302a.107.107 0 00-.105-.024c-.388.125-.78.143-1.204.138a4.441 4.441 0 01-1.945-.466 4.544 4.544 0 01-1.61-1.335c-.152-.202-.303-.392-.414-.617a5.81 5.81 0 01-.37-.961 4.582 4.582 0 01-.014-2.298.124.124 0 00.006-.056.085.085 0 00-.027-.048 4.467 4.467 0 01-1.034-1.651 3.896 3.896 0 01-.251-1.192 5.189 5.189 0 01.141-1.6c.337-1.112.982-1.985 1.933-2.618.212-.141.413-.251.601-.33.215-.089.43-.164.646-.227a.098.098 0 00.065-.066 4.51 4.51 0 01.829-1.615 4.535 4.535 0 011.837-1.388zm3.482 10.565a.637.637 0 000 1.272h3.636a.637.637 0 100-1.272h-3.636zM8.462 9.23a.637.637 0 00-1.106.631l1.272 2.224-1.266 2.136a.636.636 0 101.095.649l1.454-2.455a.636.636 0 00.005-.64L8.462 9.23z" fill="url(#codexgrad)"/></svg>
+<text x="703.2" y="161.0" font-size="16" font-weight="700" fill="#202124" text-anchor="start">Codex</text>
+<text x="711.5" y="180" font-size="11.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#5F6368" text-anchor="middle">v0.160.1 · GPT-6.1 Sol · xhigh</text>
+<rect x="565.0" y="189" width="293.0" height="3" rx="1.5" fill="#202123"/>
+<text x="294.2" y="224.0" font-size="13" font-weight="600" fill="#202124" text-anchor="middle">solo</text>
+<text x="398.5" y="224.0" font-size="13" font-weight="600" fill="#202124" text-anchor="middle">+ subagents</text>
+<text x="398.5" y="242.0" font-size="10.5" font-weight="400" fill="#5F6368" text-anchor="middle">Sonnet 5.5</text>
+<text x="489.8" y="224.0" font-size="15" font-weight="700" fill="#1A73E8" text-anchor="middle">+</text>
+<svg x="498.8" y="208.0" width="20" height="20" viewBox="0 0 20 18" shape-rendering="crispEdges"><g fill="#DB863D"><rect x="9" y="1" width="2" height="2"/><rect x="7" y="3" width="6" height="2"/><rect x="5" y="5" width="10" height="2"/></g><g fill="#3289FC"><rect x="5" y="7" width="4" height="2"/><rect x="11" y="7" width="4" height="2"/><rect x="3" y="9" width="4" height="2"/><rect x="13" y="9" width="4" height="2"/><rect x="3" y="11" width="4" height="2"/><rect x="13" y="11" width="4" height="2"/><rect x="1" y="13" width="4" height="2"/><rect x="15" y="13" width="4" height="2"/><rect x="1" y="15" width="4" height="2"/><rect x="15" y="15" width="4" height="2"/></g></svg>
+<text x="502.8" y="242.0" font-size="10.5" font-weight="600" fill="#1A73E8" text-anchor="middle">Gemini 3.8 Flash</text>
+<rect x="459.0" y="251" width="87.7" height="18" rx="4" fill="#E8F0FE"/>
+<svg x="467.0" y="255.0" width="10" height="10" viewBox="0 0 12 12" shape-rendering="crispEdges"><g fill="#4285F4"><rect x="0" y="0" width="2" height="12" fill="#202124"/><rect x="2" y="0" width="8" height="2"/><rect x="2" y="2" width="10" height="2"/><rect x="2" y="4" width="10" height="2"/><rect x="2" y="6" width="8" height="2"/></g></svg>
+<text x="482.0" y="264" font-size="10.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-weight="700" fill="#1A73E8">/agy:lead</text>
+<text x="607.2" y="224.0" font-size="13" font-weight="600" fill="#202124" text-anchor="middle">solo</text>
+<text x="711.5" y="224.0" font-size="13" font-weight="600" fill="#202124" text-anchor="middle">+ subagents</text>
+<text x="711.5" y="242.0" font-size="10.5" font-weight="400" fill="#5F6368" text-anchor="middle">GPT-6 Luna</text>
+<text x="802.8" y="224.0" font-size="15" font-weight="700" fill="#1A73E8" text-anchor="middle">+</text>
+<svg x="811.8" y="208.0" width="20" height="20" viewBox="0 0 20 18" shape-rendering="crispEdges"><g fill="#DB863D"><rect x="9" y="1" width="2" height="2"/><rect x="7" y="3" width="6" height="2"/><rect x="5" y="5" width="10" height="2"/></g><g fill="#3289FC"><rect x="5" y="7" width="4" height="2"/><rect x="11" y="7" width="4" height="2"/><rect x="3" y="9" width="4" height="2"/><rect x="13" y="9" width="4" height="2"/><rect x="3" y="11" width="4" height="2"/><rect x="13" y="11" width="4" height="2"/><rect x="1" y="13" width="4" height="2"/><rect x="15" y="13" width="4" height="2"/><rect x="1" y="15" width="4" height="2"/><rect x="15" y="15" width="4" height="2"/></g></svg>
+<text x="815.8" y="242.0" font-size="10.5" font-weight="600" fill="#1A73E8" text-anchor="middle">Gemini 3.8 Flash</text>
+<rect x="772.0" y="251" width="87.7" height="18" rx="4" fill="#E8F0FE"/>
+<svg x="780.0" y="255.0" width="10" height="10" viewBox="0 0 12 12" shape-rendering="crispEdges"><g fill="#4285F4"><rect x="0" y="0" width="2" height="12" fill="#202124"/><rect x="2" y="0" width="8" height="2"/><rect x="2" y="2" width="10" height="2"/><rect x="2" y="4" width="10" height="2"/><rect x="2" y="6" width="8" height="2"/></g></svg>
+<text x="795.0" y="264" font-size="10.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-weight="700" fill="#1A73E8">/agy:lead</text>
+<text x="56.0" y="314.0" font-size="15" font-weight="700" fill="#202124" text-anchor="start">SWE-bench Verified</text>
+<text x="221.0" y="314" font-size="11.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#5F6368">8 tasks</text>
+<text x="68" y="345" font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#202124">resolved</text>
+<text x="294.2" y="345" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">7/8</text>
+<rect x="263.2" y="354" width="6" height="6" fill="#D97757"/>
+<rect x="271.2" y="354" width="6" height="6" fill="#D97757"/>
+<rect x="279.2" y="354" width="6" height="6" fill="#D97757"/>
+<rect x="287.2" y="354" width="6" height="6" fill="#D97757"/>
+<rect x="295.2" y="354" width="6" height="6" fill="#D97757"/>
+<rect x="303.2" y="354" width="6" height="6" fill="#D97757"/>
+<rect x="311.2" y="354" width="6" height="6" fill="#D97757"/>
+<rect x="319.2" y="354" width="6" height="6" fill="#DADCE0"/>
+<text x="398.5" y="345" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">7/8</text>
+<rect x="367.5" y="354" width="6" height="6" fill="#D97757"/>
+<rect x="375.5" y="354" width="6" height="6" fill="#D97757"/>
+<rect x="383.5" y="354" width="6" height="6" fill="#D97757"/>
+<rect x="391.5" y="354" width="6" height="6" fill="#D97757"/>
+<rect x="399.5" y="354" width="6" height="6" fill="#D97757"/>
+<rect x="407.5" y="354" width="6" height="6" fill="#D97757"/>
+<rect x="415.5" y="354" width="6" height="6" fill="#D97757"/>
+<rect x="423.5" y="354" width="6" height="6" fill="#DADCE0"/>
+<text x="502.8" y="345" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">7/8</text>
+<rect x="471.8" y="354" width="6" height="6" fill="#D97757"/>
+<rect x="479.8" y="354" width="6" height="6" fill="#D97757"/>
+<rect x="487.8" y="354" width="6" height="6" fill="#D97757"/>
+<rect x="495.8" y="354" width="6" height="6" fill="#D97757"/>
+<rect x="503.8" y="354" width="6" height="6" fill="#D97757"/>
+<rect x="511.8" y="354" width="6" height="6" fill="#D97757"/>
+<rect x="519.8" y="354" width="6" height="6" fill="#D97757"/>
+<rect x="527.8" y="354" width="6" height="6" fill="#DADCE0"/>
+<text x="607.2" y="345" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">5/8</text>
+<rect x="576.2" y="354" width="6" height="6" fill="#202123"/>
+<rect x="584.2" y="354" width="6" height="6" fill="#202123"/>
+<rect x="592.2" y="354" width="6" height="6" fill="#202123"/>
+<rect x="600.2" y="354" width="6" height="6" fill="#202123"/>
+<rect x="608.2" y="354" width="6" height="6" fill="#202123"/>
+<rect x="616.2" y="354" width="6" height="6" fill="#DADCE0"/>
+<rect x="624.2" y="354" width="6" height="6" fill="#DADCE0"/>
+<rect x="632.2" y="354" width="6" height="6" fill="#DADCE0"/>
+<text x="711.5" y="345" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">5/8</text>
+<rect x="680.5" y="354" width="6" height="6" fill="#202123"/>
+<rect x="688.5" y="354" width="6" height="6" fill="#202123"/>
+<rect x="696.5" y="354" width="6" height="6" fill="#202123"/>
+<rect x="704.5" y="354" width="6" height="6" fill="#202123"/>
+<rect x="712.5" y="354" width="6" height="6" fill="#202123"/>
+<rect x="720.5" y="354" width="6" height="6" fill="#DADCE0"/>
+<rect x="728.5" y="354" width="6" height="6" fill="#DADCE0"/>
+<rect x="736.5" y="354" width="6" height="6" fill="#DADCE0"/>
+<text x="815.8" y="345" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">5/8</text>
+<rect x="784.8" y="354" width="6" height="6" fill="#202123"/>
+<rect x="792.8" y="354" width="6" height="6" fill="#202123"/>
+<rect x="800.8" y="354" width="6" height="6" fill="#202123"/>
+<rect x="808.8" y="354" width="6" height="6" fill="#202123"/>
+<rect x="816.8" y="354" width="6" height="6" fill="#202123"/>
+<rect x="824.8" y="354" width="6" height="6" fill="#DADCE0"/>
+<rect x="832.8" y="354" width="6" height="6" fill="#DADCE0"/>
+<rect x="840.8" y="354" width="6" height="6" fill="#DADCE0"/>
+<text x="68" y="391" font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#202124">host $</text>
+<text x="68.0" y="407.0" font-size="11" font-weight="400" fill="#9AA0A6" text-anchor="start">your plan's quota</text>
+<text x="294.2" y="391" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.87</text>
+<text x="294.2" y="407.0" font-size="10.5" font-weight="400" fill="#9AA0A6" text-anchor="middle">baseline</text>
+<text x="398.5" y="391" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.30</text>
+<text x="398.5" y="407" font-size="11" font-weight="700" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums"><tspan fill="#80868B">▼ 65%</tspan></text>
+<text x="502.8" y="391" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.73</text>
+<text x="502.8" y="407" font-size="11" font-weight="700" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums"><tspan fill="#188038">▼ 16%</tspan></text>
+<text x="607.2" y="391" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.25</text>
+<text x="607.2" y="407.0" font-size="10.5" font-weight="400" fill="#9AA0A6" text-anchor="middle">baseline</text>
+<text x="711.5" y="391" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.29</text>
+<text x="711.5" y="407" font-size="11" font-weight="700" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums"><tspan fill="#80868B">▲ 18%</tspan></text>
+<text x="815.8" y="391" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.46</text>
+<text x="815.8" y="407" font-size="11" font-weight="700" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums"><tspan fill="#D93025">▲ 86%</tspan></text>
+<text x="68" y="435" font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#202124">total $</text>
+<text x="68.0" y="451.0" font-size="11" font-weight="400" fill="#9AA0A6" text-anchor="start">host + worker</text>
+<text x="294.2" y="435" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.87</text>
+<text x="294.2" y="451.0" font-size="10.5" font-weight="400" fill="#9AA0A6" text-anchor="middle">baseline</text>
+<text x="398.5" y="435" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.76</text>
+<text x="398.5" y="451" font-size="11" font-weight="700" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums"><tspan fill="#80868B">▼ 12%</tspan></text>
+<text x="502.8" y="435" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$1.99</text>
+<text x="502.8" y="451" font-size="11" font-weight="700" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums"><tspan fill="#D93025">▲ 129%</tspan></text>
+<text x="607.2" y="435" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.25</text>
+<text x="607.2" y="451.0" font-size="10.5" font-weight="400" fill="#9AA0A6" text-anchor="middle">baseline</text>
+<text x="711.5" y="435" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.33</text>
+<text x="711.5" y="451" font-size="11" font-weight="700" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums"><tspan fill="#80868B">▲ 32%</tspan></text>
+<text x="815.8" y="435" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$2.25</text>
+<text x="815.8" y="451" font-size="11" font-weight="700" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums"><tspan fill="#D93025">▲ 804%</tspan></text>
+<text x="68" y="481" font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#202124">median time</text>
+<text x="294.2" y="481" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">5.9 min</text>
+<text x="398.5" y="481" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">9.7 min</text>
+<text x="502.8" y="481" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">19.4 min</text>
+<text x="607.2" y="481" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">3.5 min</text>
+<text x="711.5" y="481" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">4.5 min</text>
+<text x="815.8" y="481" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">25.5 min</text>
+<line x1="52.0" y1="492.0" x2="234.0" y2="492.0" stroke="#DADCE0" stroke-width="1"/>
+<line x1="242.0" y1="492.0" x2="346.3" y2="492.0" stroke="#DADCE0" stroke-width="1"/>
+<line x1="346.3" y1="492.0" x2="450.7" y2="492.0" stroke="#DADCE0" stroke-width="1"/>
+<line x1="555.0" y1="492.0" x2="659.3" y2="492.0" stroke="#DADCE0" stroke-width="1"/>
+<line x1="659.3" y1="492.0" x2="763.7" y2="492.0" stroke="#DADCE0" stroke-width="1"/>
+<text x="56.0" y="520.0" font-size="15" font-weight="700" fill="#202124" text-anchor="start">SWE-Atlas QnA</text>
+<text x="185.6" y="520" font-size="11.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#5F6368">6 tasks</text>
+<text x="68" y="551" font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#202124">resolved</text>
+<text x="294.2" y="551" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">5/6</text>
+<rect x="271.2" y="560" width="6" height="6" fill="#D97757"/>
+<rect x="279.2" y="560" width="6" height="6" fill="#D97757"/>
+<rect x="287.2" y="560" width="6" height="6" fill="#D97757"/>
+<rect x="295.2" y="560" width="6" height="6" fill="#D97757"/>
+<rect x="303.2" y="560" width="6" height="6" fill="#D97757"/>
+<rect x="311.2" y="560" width="6" height="6" fill="#DADCE0"/>
+<text x="398.5" y="551.0" font-size="14" font-weight="400" fill="#BDC1C6" text-anchor="middle">—</text>
+<text x="502.8" y="551" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">4/6</text>
+<rect x="479.8" y="560" width="6" height="6" fill="#D97757"/>
+<rect x="487.8" y="560" width="6" height="6" fill="#D97757"/>
+<rect x="495.8" y="560" width="6" height="6" fill="#D97757"/>
+<rect x="503.8" y="560" width="6" height="6" fill="#D97757"/>
+<rect x="511.8" y="560" width="6" height="6" fill="#DADCE0"/>
+<rect x="519.8" y="560" width="6" height="6" fill="#DADCE0"/>
+<text x="607.2" y="551" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">6/6</text>
+<rect x="584.2" y="560" width="6" height="6" fill="#202123"/>
+<rect x="592.2" y="560" width="6" height="6" fill="#202123"/>
+<rect x="600.2" y="560" width="6" height="6" fill="#202123"/>
+<rect x="608.2" y="560" width="6" height="6" fill="#202123"/>
+<rect x="616.2" y="560" width="6" height="6" fill="#202123"/>
+<rect x="624.2" y="560" width="6" height="6" fill="#202123"/>
+<text x="711.5" y="551.0" font-size="14" font-weight="400" fill="#BDC1C6" text-anchor="middle">—</text>
+<text x="815.8" y="551" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">5/6</text>
+<rect x="792.8" y="560" width="6" height="6" fill="#202123"/>
+<rect x="800.8" y="560" width="6" height="6" fill="#202123"/>
+<rect x="808.8" y="560" width="6" height="6" fill="#202123"/>
+<rect x="816.8" y="560" width="6" height="6" fill="#202123"/>
+<rect x="824.8" y="560" width="6" height="6" fill="#202123"/>
+<rect x="832.8" y="560" width="6" height="6" fill="#DADCE0"/>
+<text x="68" y="597" font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#202124">host $</text>
+<text x="68.0" y="613.0" font-size="11" font-weight="400" fill="#9AA0A6" text-anchor="start">your plan's quota</text>
+<text x="294.2" y="597" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$1.86</text>
+<text x="294.2" y="613.0" font-size="10.5" font-weight="400" fill="#9AA0A6" text-anchor="middle">baseline</text>
+<text x="398.5" y="597.0" font-size="14" font-weight="400" fill="#BDC1C6" text-anchor="middle">—</text>
+<text x="502.8" y="597" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$1.18</text>
+<text x="502.8" y="613" font-size="11" font-weight="700" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums"><tspan fill="#188038">▼ 36%</tspan></text>
+<text x="607.2" y="597" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.51</text>
+<text x="607.2" y="613.0" font-size="10.5" font-weight="400" fill="#9AA0A6" text-anchor="middle">baseline</text>
+<text x="711.5" y="597.0" font-size="14" font-weight="400" fill="#BDC1C6" text-anchor="middle">—</text>
+<text x="815.8" y="597" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.63</text>
+<text x="815.8" y="613" font-size="11" font-weight="700" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums"><tspan fill="#D93025">▲ 22%</tspan></text>
+<text x="68" y="641" font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#202124">total $</text>
+<text x="68.0" y="657.0" font-size="11" font-weight="400" fill="#9AA0A6" text-anchor="start">host + worker</text>
+<text x="294.2" y="641" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$1.86</text>
+<text x="294.2" y="657.0" font-size="10.5" font-weight="400" fill="#9AA0A6" text-anchor="middle">baseline</text>
+<text x="398.5" y="641.0" font-size="14" font-weight="400" fill="#BDC1C6" text-anchor="middle">—</text>
+<text x="502.8" y="641" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$1.88</text>
+<text x="502.8" y="657" font-size="11" font-weight="700" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums"><tspan fill="#D93025">▲ 1%</tspan></text>
+<text x="607.2" y="641" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.51</text>
+<text x="607.2" y="657.0" font-size="10.5" font-weight="400" fill="#9AA0A6" text-anchor="middle">baseline</text>
+<text x="711.5" y="641.0" font-size="14" font-weight="400" fill="#BDC1C6" text-anchor="middle">—</text>
+<text x="815.8" y="641" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$1.56</text>
+<text x="815.8" y="657" font-size="11" font-weight="700" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums"><tspan fill="#D93025">▲ 204%</tspan></text>
+<text x="68" y="687" font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#202124">median time</text>
+<text x="294.2" y="687" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">7.5 min</text>
+<text x="398.5" y="687.0" font-size="14" font-weight="400" fill="#BDC1C6" text-anchor="middle">—</text>
+<text x="502.8" y="687" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">15.5 min</text>
+<text x="607.2" y="687" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">8.0 min</text>
+<text x="711.5" y="687.0" font-size="14" font-weight="400" fill="#BDC1C6" text-anchor="middle">—</text>
+<text x="815.8" y="687" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">22.6 min</text>
+<line x1="52.0" y1="698.0" x2="234.0" y2="698.0" stroke="#DADCE0" stroke-width="1"/>
+<line x1="242.0" y1="698.0" x2="346.3" y2="698.0" stroke="#DADCE0" stroke-width="1"/>
+<line x1="346.3" y1="698.0" x2="450.7" y2="698.0" stroke="#DADCE0" stroke-width="1"/>
+<line x1="555.0" y1="698.0" x2="659.3" y2="698.0" stroke="#DADCE0" stroke-width="1"/>
+<line x1="659.3" y1="698.0" x2="763.7" y2="698.0" stroke="#DADCE0" stroke-width="1"/>
+<text x="56.0" y="726.0" font-size="15" font-weight="700" fill="#202124" text-anchor="start">DeepSearchQA</text>
+<text x="178.0" y="726" font-size="11.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#5F6368">6 tasks</text>
+<text x="68" y="757" font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#202124">resolved</text>
+<text x="294.2" y="757" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">4/6</text>
+<rect x="271.2" y="766" width="6" height="6" fill="#D97757"/>
+<rect x="279.2" y="766" width="6" height="6" fill="#D97757"/>
+<rect x="287.2" y="766" width="6" height="6" fill="#D97757"/>
+<rect x="295.2" y="766" width="6" height="6" fill="#D97757"/>
+<rect x="303.2" y="766" width="6" height="6" fill="#DADCE0"/>
+<rect x="311.2" y="766" width="6" height="6" fill="#DADCE0"/>
+<text x="398.5" y="757.0" font-size="14" font-weight="400" fill="#BDC1C6" text-anchor="middle">—</text>
+<text x="502.8" y="757" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">3/6</text>
+<rect x="479.8" y="766" width="6" height="6" fill="#D97757"/>
+<rect x="487.8" y="766" width="6" height="6" fill="#D97757"/>
+<rect x="495.8" y="766" width="6" height="6" fill="#D97757"/>
+<rect x="503.8" y="766" width="6" height="6" fill="#DADCE0"/>
+<rect x="512.4" y="766.6" width="4.8" height="4.8" fill="#FFFFFF" stroke="#D93025" stroke-width="1.2"/>
+<rect x="520.4" y="766.6" width="4.8" height="4.8" fill="#FFFFFF" stroke="#D93025" stroke-width="1.2"/>
+<text x="607.2" y="757" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">5/6</text>
+<rect x="584.2" y="766" width="6" height="6" fill="#202123"/>
+<rect x="592.2" y="766" width="6" height="6" fill="#202123"/>
+<rect x="600.2" y="766" width="6" height="6" fill="#202123"/>
+<rect x="608.2" y="766" width="6" height="6" fill="#202123"/>
+<rect x="616.2" y="766" width="6" height="6" fill="#202123"/>
+<rect x="624.2" y="766" width="6" height="6" fill="#DADCE0"/>
+<text x="711.5" y="757.0" font-size="14" font-weight="400" fill="#BDC1C6" text-anchor="middle">—</text>
+<text x="815.8" y="757" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">5/6</text>
+<rect x="792.8" y="766" width="6" height="6" fill="#202123"/>
+<rect x="800.8" y="766" width="6" height="6" fill="#202123"/>
+<rect x="808.8" y="766" width="6" height="6" fill="#202123"/>
+<rect x="816.8" y="766" width="6" height="6" fill="#202123"/>
+<rect x="824.8" y="766" width="6" height="6" fill="#202123"/>
+<rect x="833.4" y="766.6" width="4.8" height="4.8" fill="#FFFFFF" stroke="#D93025" stroke-width="1.2"/>
+<text x="68" y="803" font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#202124">host $</text>
+<text x="68.0" y="819.0" font-size="11" font-weight="400" fill="#9AA0A6" text-anchor="start">your plan's quota</text>
+<text x="294.2" y="803" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.68</text>
+<text x="294.2" y="819.0" font-size="10.5" font-weight="400" fill="#9AA0A6" text-anchor="middle">baseline</text>
+<text x="398.5" y="803.0" font-size="14" font-weight="400" fill="#BDC1C6" text-anchor="middle">—</text>
+<text x="502.8" y="803" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.34</text>
+<text x="502.8" y="819" font-size="11" font-weight="700" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums"><tspan fill="#188038">▼ 50%</tspan></text>
+<text x="607.2" y="803" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.44</text>
+<text x="607.2" y="819.0" font-size="10.5" font-weight="400" fill="#9AA0A6" text-anchor="middle">baseline</text>
+<text x="711.5" y="803.0" font-size="14" font-weight="400" fill="#BDC1C6" text-anchor="middle">—</text>
+<text x="815.8" y="803" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.37</text>
+<text x="815.8" y="819" font-size="11" font-weight="700" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums"><tspan fill="#188038">▼ 16%</tspan></text>
+<text x="68" y="847" font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#202124">total $</text>
+<text x="68.0" y="863.0" font-size="11" font-weight="400" fill="#9AA0A6" text-anchor="start">host + worker</text>
+<text x="294.2" y="847" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.68</text>
+<text x="294.2" y="863.0" font-size="10.5" font-weight="400" fill="#9AA0A6" text-anchor="middle">baseline</text>
+<text x="398.5" y="847.0" font-size="14" font-weight="400" fill="#BDC1C6" text-anchor="middle">—</text>
+<text x="502.8" y="847" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$1.18</text>
+<text x="502.8" y="863" font-size="11" font-weight="700" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums"><tspan fill="#D93025">▲ 74%</tspan></text>
+<text x="607.2" y="847" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.44</text>
+<text x="607.2" y="863.0" font-size="10.5" font-weight="400" fill="#9AA0A6" text-anchor="middle">baseline</text>
+<text x="711.5" y="847.0" font-size="14" font-weight="400" fill="#BDC1C6" text-anchor="middle">—</text>
+<text x="815.8" y="847" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$1.66</text>
+<text x="815.8" y="863" font-size="11" font-weight="700" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums"><tspan fill="#D93025">▲ 278%</tspan></text>
+<text x="68" y="893" font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#202124">median time</text>
+<text x="294.2" y="893" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">2.4 min</text>
+<text x="398.5" y="893.0" font-size="14" font-weight="400" fill="#BDC1C6" text-anchor="middle">—</text>
+<text x="502.8" y="893" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">13.3 min</text>
+<text x="607.2" y="893" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">2.4 min</text>
+<text x="711.5" y="893.0" font-size="14" font-weight="400" fill="#BDC1C6" text-anchor="middle">—</text>
+<text x="815.8" y="893" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">20.7 min</text>
+<g stroke="#5F6368" stroke-width="1"><line x1="40" y1="952" x2="240.8" y2="952"/><line x1="679.2" y1="952" x2="880" y2="952"/><line x1="40" y1="947" x2="40" y2="957"/><line x1="880" y1="947" x2="880" y2="957"/></g>
+<text x="460.0" y="956" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#5F6368" text-anchor="middle">20 tasks · 3 benchmarks · 2 hosts × 3 setups · 1 run each</text>
+<rect x="163.1" y="975" width="6" height="6" fill="#D97757"/><rect x="171.1" y="975" width="6" height="6" fill="#202123"/>
+<text x="183.1" y="984.0" font-size="12" font-weight="400" fill="#5F6368" text-anchor="start">solved</text>
+<rect x="240.3" y="975" width="6" height="6" fill="#DADCE0"/>
+<text x="252.3" y="984.0" font-size="12" font-weight="400" fill="#5F6368" text-anchor="start">not solved</text>
+<rect x="332.5" y="975.6" width="4.8" height="4.8" fill="#FFFFFF" stroke="#D93025" stroke-width="1.2"/>
+<text x="343.9" y="984.0" font-size="12" font-weight="400" fill="#5F6368" text-anchor="start">stopped at the time limit</text>
+<text x="508.3" y="984" font-size="11" font-weight="700" fill="#188038">▼</text>
+<text x="522.3" y="984.0" font-size="12" font-weight="400" fill="#5F6368" text-anchor="start">cheaper than solo</text>
+<text x="643.4" y="984" font-size="11" font-weight="700" fill="#D93025">▲</text>
+<text x="657.4" y="984.0" font-size="12" font-weight="400" fill="#5F6368" text-anchor="start">costlier than solo</text>
+<rect x="40.0" y="1010" width="6" height="6" fill="#4285F4"/>
+<text x="54.0" y="1018.0" font-size="12" fill="#5F6368"><tspan font-weight="700" fill="#202124">Resolved</tspan> SWE-bench by its tests. QnA and DeepSearchQA only when</text>
+<text x="54.0" y="1035.0" font-size="12" font-weight="400" fill="#5F6368" text-anchor="start">both judges pass (Gemini 3.8 Flash, DeepSeek V4 Pro).</text>
+<rect x="474.0" y="1010" width="6" height="6" fill="#4285F4"/>
+<text x="488.0" y="1018.0" font-size="12" fill="#5F6368"><tspan font-weight="700" fill="#202124">Host $</tspan> what the host model itself uses, at API list price: the part</text>
+<text x="488.0" y="1035.0" font-size="12" font-weight="400" fill="#5F6368" text-anchor="start">that comes out of your Claude or ChatGPT plan.</text>
+<rect x="40.0" y="1056" width="6" height="6" fill="#4285F4"/>
+<text x="54.0" y="1064.0" font-size="12" fill="#5F6368"><tspan font-weight="700" fill="#202124">Total $</tspan> host + worker. Subagents bill the host's plan; agy is priced</text>
+<text x="54.0" y="1081.0" font-size="12" font-weight="400" fill="#5F6368" text-anchor="start">at Gemini list price but runs on agy's own quota.</text>
+<rect x="474.0" y="1056" width="6" height="6" fill="#4285F4"/>
+<text x="488.0" y="1064.0" font-size="12" fill="#5F6368"><tspan font-weight="700" fill="#202124">+ agy</tspan> the prompt asks the host to use agy lead (/agy:lead), and lead</text>
+<text x="488.0" y="1081.0" font-size="12" font-weight="400" fill="#5F6368" text-anchor="start">picks which agy job to run.</text>
+<rect x="40.0" y="1102" width="6" height="6" fill="#4285F4"/>
+<text x="54.0" y="1110.0" font-size="12" fill="#5F6368"><tspan font-weight="700" fill="#202124">Time limit</tspan> DeepSearchQA stops a trial at 30 min. 3 + agy trials hit it</text>
+<text x="54.0" y="1127.0" font-size="12" font-weight="400" fill="#5F6368" text-anchor="start">(Claude Code 2, Codex 1) and count as unsolved.</text>
+<rect x="474.0" y="1102" width="6" height="6" fill="#4285F4"/>
+<text x="488.0" y="1110.0" font-size="12" fill="#5F6368"><tspan font-weight="700" fill="#202124">Versions</tspan> agy-staff 0.7.3 (f00d149), agy CLI 1.3.0 in every task</text>
+<text x="488.0" y="1127.0" font-size="12" font-weight="400" fill="#5F6368" text-anchor="start">image, Harbor at commit 3e30cca.</text>
+</svg>

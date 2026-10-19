@@ -10,7 +10,7 @@
 
 ![agy-staff 设计图](assets/design.png)
 
-**[安装](#安装) · [使用示例](#使用) · [核心设计](#核心设计) · [为其他 CLI 做一个](#为其他-cli-做一个) · [升级](#升级)**
+**[评测](#-评测--harness-与编排) · [安装](#安装) · [使用示例](#使用) · [核心设计](#核心设计) · [为其他 CLI 做一个](#为其他-cli-做一个) · [升级](#升级)**
 
 ## 它适合做什么
 
@@ -19,6 +19,26 @@ agy-staff 提供五种角色（persona）。`staffer` 适合通用任务；`rese
 为什么需要它：GPT-5.6-Sol 开着 fast mode 也慢；Claude Code 快一些，但 Fable 额度有限，更适合用来编排 subagent，而不是亲自做每一次调研和审查。这些任务可以交给 agy：它几秒钟就能给出第二意见，调研和审查以 Flash 的速度完成，范围明确的实现任务放到后台执行，你继续做手头的事。另外，即使不追求速度，让另一个模型家族审同一份代码，也能发现主力 agent 自己发现不了的问题。
 
 ![主 agent 将部分工作交给后台运行的 agy](assets/why.png)
+
+## <img src="assets/logo/bench.svg" width="32" height="32" alt=""> 评测 — Harness 与编排
+
+agy-staff Bench v1 让 Claude Code 和 Codex 在三个 benchmark 上做题，每道题用三种编排方案各跑一次：自己做、用自家 subagent、通过 `lead` 用 agy。
+
+[![agy-staff Bench v1：Claude Code 和 Codex 在 SWE-bench Verified、SWE-Atlas QnA、DeepSearchQA 上，分别单独做、用自家 subagent、用 agy 的结果](bench/results/v1/summary.png)](bench/README.zh-CN.md)
+
+> [!NOTE]
+> **为什么做这个评测。** 同一批题目，换不同的 host，分别用和不用 agy 来做，回答三个问题：
+> - **什么时候该委派。** 哪些任务、哪个 host 交给 agy 更划算，哪些留给 host 自己做更好。结论会沉淀成 agy-staff 的最佳实践。
+> - **agy-staff 该改什么。** 每次评测都会暴露委派在哪里浪费了时间或 token。这些发现会回到插件里变成修复，之后的评测版本再验证修复是否有效。
+> - **不同 harness 的设计差异。** 同一份 prompt、同一个 worker，只换 host。结果上的差距能追溯到各家 harness 的设计取舍。
+
+**v1 的结论**（每种编排方案每道题只跑了 1 次，是第一版基线，不是定论）：
+
+- **agy 最适合调研类任务。** DeepSearchQA 是唯一一个两个 host 用了 agy 都省下 host 成本的 benchmark：Claude Code −50%，Codex −16%。host 成本就是从你的 Claude 或 ChatGPT 订阅里扣的那部分。
+- **Claude Code 的 harness 和 agy 更搭。** 用了 agy，Claude Code 三个 benchmark 的 host 成本都下降了（−16% 到 −50%）；Codex 有两个反而上升（SWE-bench +86%，QnA +22%）。Claude Code 在后台等 agy，任务结束才被唤醒；Codex 会反复轮询，每次醒来都带着完整的上下文。
+- **代价是时间。** 每道题的耗时中位数从单独做的 2–8 分钟，变成用 agy 的 13–26 分钟。解出数和单独做持平，或少 1 道。
+
+**方法、局限和版本 →** [bench/README.zh-CN.md](bench/README.zh-CN.md)
 
 ## 安装
 
