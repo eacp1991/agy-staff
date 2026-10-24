@@ -55,59 +55,155 @@
 <text x="221.0" y="314" font-size="11.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#5F6368">8 tasks</text>
 <text x="68" y="345" font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#202124">resolved</text>
 <text x="294.2" y="345" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">6/8</text>
+<g class="trial" data-job="claude-solo-astropy__astropy-13236-c55x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / solo / astropy__astropy-13236 / run 1: solved</title>
 <rect x="263.2" y="354" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-solo-django__django-11138-c55x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / solo / django__django-11138 / run 1: solved</title>
 <rect x="271.2" y="354" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-solo-django__django-12406-c55x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / solo / django__django-12406 / run 1: solved</title>
 <rect x="279.2" y="354" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-solo-django__django-13401-c55x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / solo / django__django-13401 / run 1: solved</title>
 <rect x="287.2" y="354" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-solo-matplotlib__matplotlib-23412-c55x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / solo / matplotlib__matplotlib-23412 / run 1: solved</title>
 <rect x="295.2" y="354" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-solo-pydata__xarray-2905-c55x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / solo / pydata__xarray-2905 / run 1: solved</title>
 <rect x="303.2" y="354" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-solo-pytest-dev__pytest-5840-c55x-r1" data-resolved="false" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / solo / pytest-dev__pytest-5840 / run 1: not solved</title>
 <rect x="311.2" y="354" width="6" height="6" fill="#DADCE0"/>
+</g>
+<g class="trial" data-job="claude-solo-sympy__sympy-14248-c55x-r1-rerun1" data-resolved="false" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / solo / sympy__sympy-14248 / run 1: not solved</title>
 <rect x="319.2" y="354" width="6" height="6" fill="#DADCE0"/>
+</g>
 <text x="398.5" y="345" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">6/8</text>
+<g class="trial" data-job="claude-native-astropy__astropy-13236-c55x-r1-rerun2" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / native / astropy__astropy-13236 / run 1: solved</title>
 <rect x="367.5" y="354" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-native-django__django-11138-c55x-r1-rerun2" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / native / django__django-11138 / run 1: solved</title>
 <rect x="375.5" y="354" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-native-django__django-12406-c55x-r1-rerun2" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / native / django__django-12406 / run 1: solved</title>
 <rect x="383.5" y="354" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-native-django__django-13401-c55x-r1-rerun2" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / native / django__django-13401 / run 1: solved</title>
 <rect x="391.5" y="354" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-native-matplotlib__matplotlib-23412-c55x-r1-rerun2" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / native / matplotlib__matplotlib-23412 / run 1: solved</title>
 <rect x="399.5" y="354" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-native-pydata__xarray-2905-c55x-r1-rerun2" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / native / pydata__xarray-2905 / run 1: solved</title>
 <rect x="407.5" y="354" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-native-pytest-dev__pytest-5840-c55x-r1-rerun2" data-resolved="false" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / native / pytest-dev__pytest-5840 / run 1: not solved</title>
 <rect x="415.5" y="354" width="6" height="6" fill="#DADCE0"/>
+</g>
+<g class="trial" data-job="claude-native-sympy__sympy-14248-c55x-r1-rerun2" data-resolved="false" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / native / sympy__sympy-14248 / run 1: not solved</title>
 <rect x="423.5" y="354" width="6" height="6" fill="#DADCE0"/>
+</g>
 <text x="502.8" y="345" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">6/8</text>
+<g class="trial" data-job="claude-agy-staff-astropy__astropy-13236-c55x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / agy-staff / astropy__astropy-13236 / run 1: solved</title>
 <rect x="471.8" y="354" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-agy-staff-django__django-11138-c55x-r1-rerun1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / agy-staff / django__django-11138 / run 1: solved</title>
 <rect x="479.8" y="354" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-agy-staff-django__django-12406-c55x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / agy-staff / django__django-12406 / run 1: solved</title>
 <rect x="487.8" y="354" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-agy-staff-django__django-13401-c55x-r1-rerun1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / agy-staff / django__django-13401 / run 1: solved</title>
 <rect x="495.8" y="354" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-agy-staff-matplotlib__matplotlib-23412-c55x-r1-rerun1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / agy-staff / matplotlib__matplotlib-23412 / run 1: solved</title>
 <rect x="503.8" y="354" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-agy-staff-pydata__xarray-2905-c55x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / agy-staff / pydata__xarray-2905 / run 1: solved</title>
 <rect x="511.8" y="354" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-agy-staff-pytest-dev__pytest-5840-c55x-r1" data-resolved="false" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / agy-staff / pytest-dev__pytest-5840 / run 1: not solved</title>
 <rect x="519.8" y="354" width="6" height="6" fill="#DADCE0"/>
+</g>
+<g class="trial" data-job="claude-agy-staff-sympy__sympy-14248-c55x-r1" data-resolved="false" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / agy-staff / sympy__sympy-14248 / run 1: not solved</title>
 <rect x="527.8" y="354" width="6" height="6" fill="#DADCE0"/>
+</g>
 <text x="607.2" y="345" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">5/8</text>
+<g class="trial" data-job="codex-solo-django__django-11138-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / solo / django__django-11138 / run 1: solved</title>
 <rect x="576.2" y="354" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-solo-django__django-12406-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / solo / django__django-12406 / run 1: solved</title>
 <rect x="584.2" y="354" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-solo-django__django-13401-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / solo / django__django-13401 / run 1: solved</title>
 <rect x="592.2" y="354" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-solo-matplotlib__matplotlib-23412-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / solo / matplotlib__matplotlib-23412 / run 1: solved</title>
 <rect x="600.2" y="354" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-solo-pydata__xarray-2905-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / solo / pydata__xarray-2905 / run 1: solved</title>
 <rect x="608.2" y="354" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-solo-astropy__astropy-13236-s61x-r1" data-resolved="false" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / solo / astropy__astropy-13236 / run 1: not solved</title>
 <rect x="616.2" y="354" width="6" height="6" fill="#DADCE0"/>
+</g>
+<g class="trial" data-job="codex-solo-pytest-dev__pytest-5840-s61x-r1" data-resolved="false" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / solo / pytest-dev__pytest-5840 / run 1: not solved</title>
 <rect x="624.2" y="354" width="6" height="6" fill="#DADCE0"/>
+</g>
+<g class="trial" data-job="codex-solo-sympy__sympy-14248-s61x-r1" data-resolved="false" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / solo / sympy__sympy-14248 / run 1: not solved</title>
 <rect x="632.2" y="354" width="6" height="6" fill="#DADCE0"/>
+</g>
 <text x="711.5" y="345" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">4/8</text>
+<g class="trial" data-job="codex-native-django__django-11138-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / native / django__django-11138 / run 1: solved</title>
 <rect x="680.5" y="354" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-native-django__django-13401-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / native / django__django-13401 / run 1: solved</title>
 <rect x="688.5" y="354" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-native-matplotlib__matplotlib-23412-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / native / matplotlib__matplotlib-23412 / run 1: solved</title>
 <rect x="696.5" y="354" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-native-pydata__xarray-2905-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / native / pydata__xarray-2905 / run 1: solved</title>
 <rect x="704.5" y="354" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-native-astropy__astropy-13236-s61x-r1" data-resolved="false" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / native / astropy__astropy-13236 / run 1: not solved</title>
 <rect x="712.5" y="354" width="6" height="6" fill="#DADCE0"/>
+</g>
+<g class="trial" data-job="codex-native-django__django-12406-s61x-r1" data-resolved="false" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / native / django__django-12406 / run 1: not solved</title>
 <rect x="720.5" y="354" width="6" height="6" fill="#DADCE0"/>
+</g>
+<g class="trial" data-job="codex-native-pytest-dev__pytest-5840-s61x-r1" data-resolved="false" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / native / pytest-dev__pytest-5840 / run 1: not solved</title>
 <rect x="728.5" y="354" width="6" height="6" fill="#DADCE0"/>
+</g>
+<g class="trial" data-job="codex-native-sympy__sympy-14248-s61x-r1" data-resolved="false" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / native / sympy__sympy-14248 / run 1: not solved</title>
 <rect x="736.5" y="354" width="6" height="6" fill="#DADCE0"/>
+</g>
 <text x="815.8" y="345" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">4/8</text>
+<g class="trial" data-job="codex-agy-staff-django__django-11138-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / agy-staff / django__django-11138 / run 1: solved</title>
 <rect x="784.8" y="354" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-agy-staff-django__django-13401-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / agy-staff / django__django-13401 / run 1: solved</title>
 <rect x="792.8" y="354" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-agy-staff-matplotlib__matplotlib-23412-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / agy-staff / matplotlib__matplotlib-23412 / run 1: solved</title>
 <rect x="800.8" y="354" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-agy-staff-pydata__xarray-2905-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / agy-staff / pydata__xarray-2905 / run 1: solved</title>
 <rect x="808.8" y="354" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-agy-staff-astropy__astropy-13236-s61x-r1" data-resolved="false" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / agy-staff / astropy__astropy-13236 / run 1: not solved</title>
 <rect x="816.8" y="354" width="6" height="6" fill="#DADCE0"/>
+</g>
+<g class="trial" data-job="codex-agy-staff-django__django-12406-s61x-r1" data-resolved="false" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / agy-staff / django__django-12406 / run 1: not solved</title>
 <rect x="824.8" y="354" width="6" height="6" fill="#DADCE0"/>
+</g>
+<g class="trial" data-job="codex-agy-staff-pytest-dev__pytest-5840-s61x-r1" data-resolved="false" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / agy-staff / pytest-dev__pytest-5840 / run 1: not solved</title>
 <rect x="832.8" y="354" width="6" height="6" fill="#DADCE0"/>
+</g>
+<g class="trial" data-job="codex-agy-staff-sympy__sympy-14248-s61x-r1" data-resolved="false" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / agy-staff / sympy__sympy-14248 / run 1: not solved</title>
 <rect x="840.8" y="354" width="6" height="6" fill="#DADCE0"/>
+</g>
 <text x="68" y="391" font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#202124">host $</text>
 <text x="68.0" y="407.0" font-size="11" font-weight="400" fill="#9AA0A6" text-anchor="start">your plan's quota</text>
 <text x="294.2" y="391" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.87</text>
@@ -152,35 +248,101 @@
 <text x="185.6" y="520" font-size="11.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#5F6368">6 tasks</text>
 <text x="68" y="551" font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#202124">resolved</text>
 <text x="294.2" y="551" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">5/6</text>
+<g class="trial" data-job="claude-solo-task-6905333b74f22949d97ba9a8-c55x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / solo / task-6905333b74f22949d97ba9a8 / run 1: solved</title>
 <rect x="271.2" y="560" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-solo-task-6905333b74f22949d97ba9bc-c55x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / solo / task-6905333b74f22949d97ba9bc / run 1: solved</title>
 <rect x="279.2" y="560" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-solo-task-6905333b74f22949d97ba9ce-c55x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / solo / task-6905333b74f22949d97ba9ce / run 1: solved</title>
 <rect x="287.2" y="560" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-solo-task-6905333b74f22949d97baa04-c55x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / solo / task-6905333b74f22949d97baa04 / run 1: solved</title>
 <rect x="295.2" y="560" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-solo-task-6905333b74f22949d97baa15-c55x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / solo / task-6905333b74f22949d97baa15 / run 1: solved</title>
 <rect x="303.2" y="560" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-solo-task-6905333b74f22949d97ba9dd-c55x-r1" data-resolved="false" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / solo / task-6905333b74f22949d97ba9dd / run 1: not solved</title>
 <rect x="311.2" y="560" width="6" height="6" fill="#DADCE0"/>
+</g>
 <text x="398.5" y="551.0" font-size="14" font-weight="400" fill="#BDC1C6" text-anchor="middle">—</text>
 <text x="502.8" y="551" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">4/6</text>
+<g class="trial" data-job="claude-agy-staff-task-6905333b74f22949d97ba9a8-c55x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / agy-staff / task-6905333b74f22949d97ba9a8 / run 1: solved</title>
 <rect x="479.8" y="560" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-agy-staff-task-6905333b74f22949d97ba9bc-c55x-r1-rerun1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / agy-staff / task-6905333b74f22949d97ba9bc / run 1: solved</title>
 <rect x="487.8" y="560" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-agy-staff-task-6905333b74f22949d97ba9ce-c55x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / agy-staff / task-6905333b74f22949d97ba9ce / run 1: solved</title>
 <rect x="495.8" y="560" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-agy-staff-task-6905333b74f22949d97baa04-c55x-r1-rerun1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / agy-staff / task-6905333b74f22949d97baa04 / run 1: solved</title>
 <rect x="503.8" y="560" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-agy-staff-task-6905333b74f22949d97ba9dd-c55x-r1" data-resolved="false" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / agy-staff / task-6905333b74f22949d97ba9dd / run 1: not solved</title>
 <rect x="511.8" y="560" width="6" height="6" fill="#DADCE0"/>
+</g>
+<g class="trial" data-job="claude-agy-staff-task-6905333b74f22949d97baa15-c55x-r1" data-resolved="false" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / agy-staff / task-6905333b74f22949d97baa15 / run 1: not solved</title>
 <rect x="519.8" y="560" width="6" height="6" fill="#DADCE0"/>
+</g>
 <text x="607.2" y="551" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">6/6</text>
+<g class="trial" data-job="codex-solo-task-6905333b74f22949d97ba9a8-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / solo / task-6905333b74f22949d97ba9a8 / run 1: solved</title>
 <rect x="584.2" y="560" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-solo-task-6905333b74f22949d97ba9bc-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / solo / task-6905333b74f22949d97ba9bc / run 1: solved</title>
 <rect x="592.2" y="560" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-solo-task-6905333b74f22949d97ba9ce-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / solo / task-6905333b74f22949d97ba9ce / run 1: solved</title>
 <rect x="600.2" y="560" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-solo-task-6905333b74f22949d97ba9dd-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / solo / task-6905333b74f22949d97ba9dd / run 1: solved</title>
 <rect x="608.2" y="560" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-solo-task-6905333b74f22949d97baa04-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / solo / task-6905333b74f22949d97baa04 / run 1: solved</title>
 <rect x="616.2" y="560" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-solo-task-6905333b74f22949d97baa15-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / solo / task-6905333b74f22949d97baa15 / run 1: solved</title>
 <rect x="624.2" y="560" width="6" height="6" fill="#202123"/>
-<text x="711.5" y="551.0" font-size="14" font-weight="400" fill="#BDC1C6" text-anchor="middle">—</text>
+</g>
+<text x="711.5" y="551" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">5/6</text>
+<g class="trial" data-job="codex-native-task-6905333b74f22949d97ba9a8-s61x-native-supplement-20261023-r1-rerun4" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / native / task-6905333b74f22949d97ba9a8 / run 1: solved</title>
+<rect x="688.5" y="560" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-native-task-6905333b74f22949d97ba9bc-s61x-native-supplement-20261023-r1-rerun4" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / native / task-6905333b74f22949d97ba9bc / run 1: solved</title>
+<rect x="696.5" y="560" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-native-task-6905333b74f22949d97ba9ce-s61x-native-supplement-20261023-r1-rerun4" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / native / task-6905333b74f22949d97ba9ce / run 1: solved</title>
+<rect x="704.5" y="560" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-native-task-6905333b74f22949d97baa04-s61x-native-supplement-20261023-r1-rerun1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / native / task-6905333b74f22949d97baa04 / run 1: solved</title>
+<rect x="712.5" y="560" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-native-task-6905333b74f22949d97baa15-s61x-native-supplement-20261023-r1-rerun4" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / native / task-6905333b74f22949d97baa15 / run 1: solved</title>
+<rect x="720.5" y="560" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-native-task-6905333b74f22949d97ba9dd-s61x-native-supplement-20261023-r1-rerun4" data-resolved="false" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / native / task-6905333b74f22949d97ba9dd / run 1: not solved</title>
+<rect x="728.5" y="560" width="6" height="6" fill="#DADCE0"/>
+</g>
 <text x="815.8" y="551" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">5/6</text>
+<g class="trial" data-job="codex-agy-staff-task-6905333b74f22949d97ba9a8-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / agy-staff / task-6905333b74f22949d97ba9a8 / run 1: solved</title>
 <rect x="792.8" y="560" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-agy-staff-task-6905333b74f22949d97ba9bc-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / agy-staff / task-6905333b74f22949d97ba9bc / run 1: solved</title>
 <rect x="800.8" y="560" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-agy-staff-task-6905333b74f22949d97ba9ce-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / agy-staff / task-6905333b74f22949d97ba9ce / run 1: solved</title>
 <rect x="808.8" y="560" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-agy-staff-task-6905333b74f22949d97baa04-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / agy-staff / task-6905333b74f22949d97baa04 / run 1: solved</title>
 <rect x="816.8" y="560" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-agy-staff-task-6905333b74f22949d97baa15-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / agy-staff / task-6905333b74f22949d97baa15 / run 1: solved</title>
 <rect x="824.8" y="560" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-agy-staff-task-6905333b74f22949d97ba9dd-s61x-r1" data-resolved="false" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / agy-staff / task-6905333b74f22949d97ba9dd / run 1: not solved</title>
 <rect x="832.8" y="560" width="6" height="6" fill="#DADCE0"/>
+</g>
 <text x="68" y="597" font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#202124">host $</text>
 <text x="68.0" y="613.0" font-size="11" font-weight="400" fill="#9AA0A6" text-anchor="start">your plan's quota</text>
 <text x="294.2" y="597" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$1.86</text>
@@ -190,7 +352,8 @@
 <text x="502.8" y="613" font-size="11" font-weight="700" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums"><tspan fill="#188038">▼ 36%</tspan></text>
 <text x="607.2" y="597" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.51</text>
 <text x="607.2" y="613.0" font-size="10.5" font-weight="400" fill="#9AA0A6" text-anchor="middle">baseline</text>
-<text x="711.5" y="597.0" font-size="14" font-weight="400" fill="#BDC1C6" text-anchor="middle">—</text>
+<text x="711.5" y="597" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.54</text>
+<text x="711.5" y="613" font-size="11" font-weight="700" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums"><tspan fill="#80868B">▲ 5%</tspan></text>
 <text x="815.8" y="597" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.63</text>
 <text x="815.8" y="613" font-size="11" font-weight="700" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums"><tspan fill="#D93025">▲ 22%</tspan></text>
 <text x="68" y="641" font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#202124">total $</text>
@@ -202,7 +365,8 @@
 <text x="502.8" y="657" font-size="11" font-weight="700" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums"><tspan fill="#D93025">▲ 1%</tspan></text>
 <text x="607.2" y="641" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.51</text>
 <text x="607.2" y="657.0" font-size="10.5" font-weight="400" fill="#9AA0A6" text-anchor="middle">baseline</text>
-<text x="711.5" y="641.0" font-size="14" font-weight="400" fill="#BDC1C6" text-anchor="middle">—</text>
+<text x="711.5" y="641" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.59</text>
+<text x="711.5" y="657" font-size="11" font-weight="700" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums"><tspan fill="#80868B">▲ 15%</tspan></text>
 <text x="815.8" y="641" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$1.56</text>
 <text x="815.8" y="657" font-size="11" font-weight="700" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums"><tspan fill="#D93025">▲ 204%</tspan></text>
 <text x="68" y="687" font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#202124">median time</text>
@@ -210,7 +374,7 @@
 <text x="398.5" y="687.0" font-size="14" font-weight="400" fill="#BDC1C6" text-anchor="middle">—</text>
 <text x="502.8" y="687" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">15.5 min</text>
 <text x="607.2" y="687" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">8.0 min</text>
-<text x="711.5" y="687.0" font-size="14" font-weight="400" fill="#BDC1C6" text-anchor="middle">—</text>
+<text x="711.5" y="687" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">7.8 min</text>
 <text x="815.8" y="687" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">22.6 min</text>
 <line x1="52.0" y1="698.0" x2="234.0" y2="698.0" stroke="#DADCE0" stroke-width="1"/>
 <line x1="242.0" y1="698.0" x2="346.3" y2="698.0" stroke="#DADCE0" stroke-width="1"/>
@@ -221,35 +385,101 @@
 <text x="178.0" y="726" font-size="11.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#5F6368">6 tasks</text>
 <text x="68" y="757" font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#202124">resolved</text>
 <text x="294.2" y="757" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">4/6</text>
+<g class="trial" data-job="claude-solo-deepsearchqa-0118-c55x-r1-rerun1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / solo / deepsearchqa-0118 / run 1: solved</title>
 <rect x="271.2" y="766" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-solo-deepsearchqa-0190-c55x-r1-rerun1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / solo / deepsearchqa-0190 / run 1: solved</title>
 <rect x="279.2" y="766" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-solo-deepsearchqa-0515-c55x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / solo / deepsearchqa-0515 / run 1: solved</title>
 <rect x="287.2" y="766" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-solo-deepsearchqa-0554-c55x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / solo / deepsearchqa-0554 / run 1: solved</title>
 <rect x="295.2" y="766" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-solo-deepsearchqa-0793-c55x-r1" data-resolved="false" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / solo / deepsearchqa-0793 / run 1: not solved</title>
 <rect x="303.2" y="766" width="6" height="6" fill="#DADCE0"/>
+</g>
+<g class="trial" data-job="claude-solo-deepsearchqa-0797-c55x-r1-rerun1" data-resolved="false" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / solo / deepsearchqa-0797 / run 1: not solved</title>
 <rect x="311.2" y="766" width="6" height="6" fill="#DADCE0"/>
+</g>
 <text x="398.5" y="757.0" font-size="14" font-weight="400" fill="#BDC1C6" text-anchor="middle">—</text>
 <text x="502.8" y="757" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">3/6</text>
+<g class="trial" data-job="claude-agy-staff-deepsearchqa-0515-c55x-r1-rerun1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / agy-staff / deepsearchqa-0515 / run 1: solved</title>
 <rect x="479.8" y="766" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-agy-staff-deepsearchqa-0554-c55x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / agy-staff / deepsearchqa-0554 / run 1: solved</title>
 <rect x="487.8" y="766" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-agy-staff-deepsearchqa-0797-c55x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / agy-staff / deepsearchqa-0797 / run 1: solved</title>
 <rect x="495.8" y="766" width="6" height="6" fill="#D97757"/>
+</g>
+<g class="trial" data-job="claude-agy-staff-deepsearchqa-0793-c55x-r1" data-resolved="false" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Claude Code / agy-staff / deepsearchqa-0793 / run 1: not solved</title>
 <rect x="503.8" y="766" width="6" height="6" fill="#DADCE0"/>
+</g>
+<g class="trial" data-job="claude-agy-staff-deepsearchqa-0118-c55x-r1" data-resolved="false" data-timeout="true" data-rule-violation="true" data-contamination="false"><title>Claude Code / agy-staff / deepsearchqa-0118 / run 1: not solved; stopped at the time limit; confirmed rule violation: the agy worker downloaded the DeepSearchQA answer table (DSQA-full.csv) and cited it; the host's brief had left out the rule against looking up the benchmark. The host discarded the result and timed out re-checking.</title>
 <rect x="512.4" y="766.6" width="4.8" height="4.8" fill="#FFFFFF" stroke="#D93025" stroke-width="1.2"/>
+</g>
+<g class="trial" data-job="claude-agy-staff-deepsearchqa-0190-c55x-r1" data-resolved="false" data-timeout="true" data-rule-violation="false" data-contamination="false"><title>Claude Code / agy-staff / deepsearchqa-0190 / run 1: not solved; stopped at the time limit</title>
 <rect x="520.4" y="766.6" width="4.8" height="4.8" fill="#FFFFFF" stroke="#D93025" stroke-width="1.2"/>
+</g>
 <text x="607.2" y="757" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">5/6</text>
+<g class="trial" data-job="codex-solo-deepsearchqa-0118-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / solo / deepsearchqa-0118 / run 1: solved</title>
 <rect x="584.2" y="766" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-solo-deepsearchqa-0190-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / solo / deepsearchqa-0190 / run 1: solved</title>
 <rect x="592.2" y="766" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-solo-deepsearchqa-0515-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / solo / deepsearchqa-0515 / run 1: solved</title>
 <rect x="600.2" y="766" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-solo-deepsearchqa-0554-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / solo / deepsearchqa-0554 / run 1: solved</title>
 <rect x="608.2" y="766" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-solo-deepsearchqa-0793-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / solo / deepsearchqa-0793 / run 1: solved</title>
 <rect x="616.2" y="766" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-solo-deepsearchqa-0797-s61x-r1" data-resolved="false" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / solo / deepsearchqa-0797 / run 1: not solved</title>
 <rect x="624.2" y="766" width="6" height="6" fill="#DADCE0"/>
-<text x="711.5" y="757.0" font-size="14" font-weight="400" fill="#BDC1C6" text-anchor="middle">—</text>
+</g>
+<text x="711.5" y="757" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">5/6</text>
+<g class="trial" data-job="codex-native-deepsearchqa-0190-s61x-native-supplement-20261023-r1-rerun4" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / native / deepsearchqa-0190 / run 1: solved</title>
+<rect x="688.5" y="766" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-native-deepsearchqa-0515-s61x-native-supplement-20261023-r1-rerun4" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / native / deepsearchqa-0515 / run 1: solved</title>
+<rect x="696.5" y="766" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-native-deepsearchqa-0554-s61x-native-supplement-20261023-r1-rerun4" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / native / deepsearchqa-0554 / run 1: solved</title>
+<rect x="704.5" y="766" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-native-deepsearchqa-0793-s61x-native-supplement-20261023-r1-rerun4" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / native / deepsearchqa-0793 / run 1: solved</title>
+<rect x="712.5" y="766" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-native-deepsearchqa-0797-s61x-native-supplement-20261023-r1-rerun4" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / native / deepsearchqa-0797 / run 1: solved</title>
+<rect x="720.5" y="766" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-native-deepsearchqa-0118-s61x-native-supplement-20261023-r1-rerun4" data-resolved="false" data-timeout="false" data-rule-violation="false" data-contamination="true"><title>Codex / native / deepsearchqa-0118 / run 1: not solved; confirmed answer-content contamination: The Luna worker received the exact answer row in ordinary search results. Actual answer-content contamination is confirmed; intentional benchmark lookup is not established. The trial remains unsolved.</title>
+<rect x="728.5" y="766" width="6" height="6" fill="#D93025"/>
+</g>
 <text x="815.8" y="757" font-size="15" font-weight="700" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">5/6</text>
+<g class="trial" data-job="codex-agy-staff-deepsearchqa-0190-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / agy-staff / deepsearchqa-0190 / run 1: solved</title>
 <rect x="792.8" y="766" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-agy-staff-deepsearchqa-0515-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / agy-staff / deepsearchqa-0515 / run 1: solved</title>
 <rect x="800.8" y="766" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-agy-staff-deepsearchqa-0554-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / agy-staff / deepsearchqa-0554 / run 1: solved</title>
 <rect x="808.8" y="766" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-agy-staff-deepsearchqa-0793-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / agy-staff / deepsearchqa-0793 / run 1: solved</title>
 <rect x="816.8" y="766" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-agy-staff-deepsearchqa-0797-s61x-r1" data-resolved="true" data-timeout="false" data-rule-violation="false" data-contamination="false"><title>Codex / agy-staff / deepsearchqa-0797 / run 1: solved</title>
 <rect x="824.8" y="766" width="6" height="6" fill="#202123"/>
+</g>
+<g class="trial" data-job="codex-agy-staff-deepsearchqa-0118-s61x-r1" data-resolved="false" data-timeout="true" data-rule-violation="false" data-contamination="false"><title>Codex / agy-staff / deepsearchqa-0118 / run 1: not solved; stopped at the time limit</title>
 <rect x="833.4" y="766.6" width="4.8" height="4.8" fill="#FFFFFF" stroke="#D93025" stroke-width="1.2"/>
+</g>
 <text x="68" y="803" font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#202124">host $</text>
 <text x="68.0" y="819.0" font-size="11" font-weight="400" fill="#9AA0A6" text-anchor="start">your plan's quota</text>
 <text x="294.2" y="803" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.66</text>
@@ -259,7 +489,8 @@
 <text x="502.8" y="819" font-size="11" font-weight="700" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums"><tspan fill="#188038">▼ 39%</tspan></text>
 <text x="607.2" y="803" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.44</text>
 <text x="607.2" y="819.0" font-size="10.5" font-weight="400" fill="#9AA0A6" text-anchor="middle">baseline</text>
-<text x="711.5" y="803.0" font-size="14" font-weight="400" fill="#BDC1C6" text-anchor="middle">—</text>
+<text x="711.5" y="803" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.27</text>
+<text x="711.5" y="819" font-size="11" font-weight="700" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums"><tspan fill="#80868B">▼ 40%</tspan></text>
 <text x="815.8" y="803" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.37</text>
 <text x="815.8" y="819" font-size="11" font-weight="700" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums"><tspan fill="#188038">▼ 16%</tspan></text>
 <text x="68" y="847" font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#202124">total $</text>
@@ -271,7 +502,8 @@
 <text x="502.8" y="863" font-size="11" font-weight="700" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums"><tspan fill="#D93025">▲ 88%</tspan></text>
 <text x="607.2" y="847" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.44</text>
 <text x="607.2" y="863.0" font-size="10.5" font-weight="400" fill="#9AA0A6" text-anchor="middle">baseline</text>
-<text x="711.5" y="847.0" font-size="14" font-weight="400" fill="#BDC1C6" text-anchor="middle">—</text>
+<text x="711.5" y="847" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$0.29</text>
+<text x="711.5" y="863" font-size="11" font-weight="700" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums"><tspan fill="#80868B">▼ 33%</tspan></text>
 <text x="815.8" y="847" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">$1.66</text>
 <text x="815.8" y="863" font-size="11" font-weight="700" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums"><tspan fill="#D93025">▲ 278%</tspan></text>
 <text x="68" y="893" font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#202124">median time</text>
@@ -279,20 +511,22 @@
 <text x="398.5" y="893.0" font-size="14" font-weight="400" fill="#BDC1C6" text-anchor="middle">—</text>
 <text x="502.8" y="893" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">13.3 min</text>
 <text x="607.2" y="893" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">2.4 min</text>
-<text x="711.5" y="893.0" font-size="14" font-weight="400" fill="#BDC1C6" text-anchor="middle">—</text>
+<text x="711.5" y="893" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">2.8 min</text>
 <text x="815.8" y="893" font-size="14" fill="#202124" text-anchor="middle" font-family="'num-source-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif" style="font-variant-numeric:tabular-nums lining-nums">20.7 min</text>
 <g stroke="#5F6368" stroke-width="1"><line x1="40" y1="952" x2="240.8" y2="952"/><line x1="679.2" y1="952" x2="880" y2="952"/><line x1="40" y1="947" x2="40" y2="957"/><line x1="880" y1="947" x2="880" y2="957"/></g>
 <text x="460.0" y="956" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#5F6368" text-anchor="middle">20 tasks · 3 benchmarks · 2 hosts × 3 setups · 1 run each</text>
-<rect x="163.1" y="975" width="6" height="6" fill="#D97757"/><rect x="171.1" y="975" width="6" height="6" fill="#202123"/>
-<text x="183.1" y="984.0" font-size="12" font-weight="400" fill="#5F6368" text-anchor="start">solved</text>
-<rect x="240.3" y="975" width="6" height="6" fill="#DADCE0"/>
-<text x="252.3" y="984.0" font-size="12" font-weight="400" fill="#5F6368" text-anchor="start">not solved</text>
-<rect x="332.5" y="975.6" width="4.8" height="4.8" fill="#FFFFFF" stroke="#D93025" stroke-width="1.2"/>
-<text x="343.9" y="984.0" font-size="12" font-weight="400" fill="#5F6368" text-anchor="start">stopped at the time limit</text>
-<text x="508.3" y="984" font-size="11" font-weight="700" fill="#188038">▼</text>
-<text x="522.3" y="984.0" font-size="12" font-weight="400" fill="#5F6368" text-anchor="start">cheaper than solo</text>
-<text x="643.4" y="984" font-size="11" font-weight="700" fill="#D93025">▲</text>
-<text x="657.4" y="984.0" font-size="12" font-weight="400" fill="#5F6368" text-anchor="start">costlier than solo</text>
+<rect x="62.3" y="975" width="6" height="6" fill="#D97757"/><rect x="70.3" y="975" width="6" height="6" fill="#202123"/>
+<text x="82.3" y="984.0" font-size="12" font-weight="400" fill="#5F6368" text-anchor="start">solved</text>
+<rect x="139.5" y="975" width="6" height="6" fill="#DADCE0"/>
+<text x="151.5" y="984.0" font-size="12" font-weight="400" fill="#5F6368" text-anchor="start">not solved</text>
+<rect x="231.7" y="975.6" width="4.8" height="4.8" fill="#FFFFFF" stroke="#D93025" stroke-width="1.2"/>
+<text x="243.1" y="984.0" font-size="12" font-weight="400" fill="#5F6368" text-anchor="start">stopped at the time limit</text>
+<rect x="407.5" y="975" width="6" height="6" fill="#D93025"/>
+<text x="419.5" y="984.0" font-size="12" font-weight="400" fill="#5F6368" text-anchor="start">rule violation / contamination</text>
+<text x="609.1" y="984" font-size="11" font-weight="700" fill="#188038">▼</text>
+<text x="623.1" y="984.0" font-size="12" font-weight="400" fill="#5F6368" text-anchor="start">cheaper than solo</text>
+<text x="744.2" y="984" font-size="11" font-weight="700" fill="#D93025">▲</text>
+<text x="758.2" y="984.0" font-size="12" font-weight="400" fill="#5F6368" text-anchor="start">costlier than solo</text>
 <rect x="40.0" y="1010" width="6" height="6" fill="#4285F4"/>
 <text x="54.0" y="1018.0" font-size="12" fill="#5F6368"><tspan font-weight="700" fill="#202124">Resolved</tspan> SWE-bench by its tests. QnA and DeepSearchQA only when</text>
 <text x="54.0" y="1035.0" font-size="12" font-weight="400" fill="#5F6368" text-anchor="start">both judges pass (Gemini 3.8 Flash, DeepSeek V4 Pro).</text>
@@ -303,8 +537,8 @@
 <text x="54.0" y="1064.0" font-size="12" fill="#5F6368"><tspan font-weight="700" fill="#202124">Total $</tspan> host + worker. Subagents bill the host's plan; agy is priced</text>
 <text x="54.0" y="1081.0" font-size="12" font-weight="400" fill="#5F6368" text-anchor="start">at Gemini list price but runs on agy's own quota.</text>
 <rect x="474.0" y="1056" width="6" height="6" fill="#4285F4"/>
-<text x="488.0" y="1064.0" font-size="12" fill="#5F6368"><tspan font-weight="700" fill="#202124">+ agy</tspan> the prompt asks the host to use agy lead (/agy:lead), and lead</text>
-<text x="488.0" y="1081.0" font-size="12" font-weight="400" fill="#5F6368" text-anchor="start">picks which agy job to run.</text>
+<text x="488.0" y="1064.0" font-size="12" fill="#5F6368"><tspan font-weight="700" fill="#202124">Worker effort</tspan> native: Sonnet 5.5 xhigh; GPT-6 Luna high. agy: lead</text>
+<text x="488.0" y="1081.0" font-size="12" font-weight="400" fill="#5F6368" text-anchor="start">selects the job and effort.</text>
 <rect x="40.0" y="1102" width="6" height="6" fill="#4285F4"/>
 <text x="54.0" y="1110.0" font-size="12" fill="#5F6368"><tspan font-weight="700" fill="#202124">Time limit</tspan> DeepSearchQA stops a trial at 30 min. 3 + agy trials hit it</text>
 <text x="54.0" y="1127.0" font-size="12" font-weight="400" fill="#5F6368" text-anchor="start">(Claude Code 2, Codex 1) and count as unsolved.</text>

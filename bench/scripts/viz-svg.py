@@ -9,7 +9,7 @@
   --charts   also draw the charts; without it, only the table
 
 summary.svg is the headline table: every benchmark, both hosts, three setups (resolved, host cost,
-host + worker cost with the change vs solo, median time), from data.json's aggregates (viz-data.py).
+host + worker cost with the change vs solo, median time), from data.json's aggregates and trial audit flags (viz-data.py).
 The charts share its card and its grid: cost.svg and tokens.svg stack the host's and the worker's share
 per trial in the table's columns; pareto.svg plots tasks solved against host and total cost per trial.
 Brand marks come from bench/viz/logos.json (taken from the repo's assets/); the card follows assets/design.svg.
@@ -25,7 +25,7 @@ import re
 import sys
 import urllib.request
 from pathlib import Path
-from xml.sax.saxutils import escape
+from xml.sax.saxutils import escape, quoteattr
 
 ROOT = Path(__file__).resolve().parent.parent
 LOGOS = json.loads((ROOT / "viz" / "logos.json").read_text())
@@ -298,6 +298,17 @@ def notes_layout(notes):
     return note_rows, row_lines, sum(n * 17 + 12 for n in row_lines)
 
 
+def draw_key(f, y, key):
+    """One centered legend row: [(glyph width, draw(x), label)]."""
+    mid = TW / 2
+    widths = [gw + tw(label, 12) for gw, _, label in key]
+    x = mid - (sum(widths) + 22 * (len(key) - 1)) / 2
+    for (gw, draw, label), wd in zip(key, widths):
+        draw(x)
+        f.text(x + gw, y, label, 12)
+        x += wd + 22
+
+
 def draw_footer(f, dim_y, key_y, notes_y, dim, key, notes, note_rows, row_lines):
     """The dimension line, the key centered under it, and the notes: short items, two columns, bold term first.
     key: [(glyph width, draw(x), label)]."""
@@ -307,12 +318,7 @@ def draw_footer(f, dim_y, key_y, notes_y, dim, key, notes, note_rows, row_lines)
           f'<line x1="{mid + dw / 2:.1f}" y1="{dim_y}" x2="{TW - PX}" y2="{dim_y}"/>'
           f'<line x1="{PX}" y1="{dim_y - 5}" x2="{PX}" y2="{dim_y + 5}"/><line x1="{TW - PX}" y1="{dim_y - 5}" x2="{TW - PX}" y2="{dim_y + 5}"/></g>')
     f.add(f'<text x="{mid}" y="{dim_y + 4}" font-size="12" font-family="{MONO}" fill="{C["muted"]}" text-anchor="middle">{escape(dim)}</text>')
-    widths = [gw + tw(label, 12) for gw, _, label in key]
-    x = mid - (sum(widths) + 22 * (len(key) - 1)) / 2
-    for (gw, draw, label), wd in zip(key, widths):
-        draw(x)
-        f.text(x + gw, key_y, label, 12)
-        x += wd + 22
+    draw_key(f, key_y, key)
     col_w = (CARD_W - 28) / 2
     yy = notes_y
     for r0 in range(0, len(note_rows), 2):
@@ -360,15 +366,47 @@ def swatches(colors, size=8, gap=2):
 
 
 # --- the table -----------------------------------------------------------------------------------------------
-def summary_table(aggs, runs, version, bench, num_font="source-serif"):
+def task_square(f, x, y, color, resolved=False, timed_out=False, issue=False):
+    """Use the table's pixel squares for outcomes and reviewed answer-key issues.
+
+    A solid red square is an issue; a hollow one is a timeout. Timeout takes visual
+    precedence; any overlapping issue remains in the trial's title and audit data.
+    """
+    fill = RED if issue else (color if resolved else "#DADCE0")
+    if timed_out:
+        f.add(f'<rect x="{x + 0.6:.1f}" y="{y + 0.6:.1f}" width="4.8" height="4.8" fill="#FFFFFF" '
+              f'stroke="{RED}" stroke-width="1.2"/>')
+    else:
+        f.add(f'<rect x="{x:.1f}" y="{y}" width="6" height="6" fill="{fill}"/>')
+
+
+def summary_table(aggs, runs, version, bench, num_font="source-serif", *, trials):
     """The headline table: every benchmark, both hosts, three setups, in one image.
 
     Each column says what it is with marks, not words: the host alone; the host with two small copies of itself
     (its own subagents); the host + agy. Touches: a pixel strip per resolved cell (one square per task:
-    solved, unsolved, or stopped by the time limit), the + agy columns framed as agy's staff badge, and
+    solved, unsolved, or stopped by the time limit, with reviewed answer-key issues),
+    the + agy columns framed as agy's staff badge, and
     both cost rows compared with the same host's solo (the baseline) as green / red arrows.
     """
     get = {(a["dataset"], a["host"], a["setup"]): a for a in aggs}
+    worker_efforts = "; ".join(f'{HOSTS[h]["subagent"]} {next(r for r in runs if r["host"] == h).get("native_worker_effort", "not recorded")}'
+                               for h in HOSTS)
+    trial_groups = {}
+    for t in trials:
+        trial_groups.setdefault((t["dataset"], t["host"], t["setup"]), []).append(t)
+    # Audit marks must be attached to the actual trial, including a trial that also timed out.
+    # Refuse inconsistent inputs rather than rendering the marks against aggregate placeholders.
+    for key, a in get.items():
+        group = trial_groups.get(key, [])
+        counts = {"trials": len(group), "resolved": sum(bool(t["resolved"]) for t in group),
+                  "timeouts": sum(bool(t["timed_out"]) for t in group),
+                  "rule_violations": sum(bool(t.get("rule_violation")) for t in group),
+                  "answer_key_contaminations": sum(bool(t.get("answer_key_contamination")) for t in group)}
+        for field, n in counts.items():
+            if a.get(field, 0) != n:
+                raise ValueError(f"{key}: aggregate {field}={a.get(field, 0)} differs from trial count {n}")
+        group.sort(key=lambda t: (not t["resolved"], bool(t["timed_out"]), t["task"], t["rep"]))
     dss = [d for d in DATASETS if any(a["dataset"] == d for a in aggs)]
     num = num_attr(num_font)
 
@@ -389,13 +427,14 @@ def summary_table(aggs, runs, version, bench, num_font="source-serif"):
         ("Resolved", "SWE-bench by its tests. QnA and DeepSearchQA only when both judges pass (Gemini 3.8 Flash, DeepSeek V4 Pro)."),
         ("Host $", "what the host model itself uses, at API list price: the part that comes out of your Claude or ChatGPT plan."),
         ("Total $", "host + worker. Subagents bill the host's plan; agy is priced at Gemini list price but runs on agy's own quota."),
-        ("+ agy", "the prompt asks the host to use agy lead (/agy:lead), and lead picks which agy job to run."),
+        ("Worker effort", f"native: {worker_efforts}. agy: lead selects the job and effort."),
     ]
     if timeouts:
         limit = ", ".join(f"{h} {n}" for h, s, d, n in timeouts)
         sets = sorted({DATASETS[d] for h, s, d, n in timeouts})
         notes.append(("Time limit", f"{' and '.join(sets)} stops a trial at 30 min. {sum(n for *_, n in timeouts)} + agy trials hit it "
                                     f"({limit}) and count as unsolved."))
+    audited = any(a.get("rule_violations") or a.get("answer_key_contaminations") for a in aggs)
     notes.append(versions_note(version))
     note_rows, row_lines, notes_h = notes_layout(notes)
     dim_y = card_end + 32
@@ -437,16 +476,24 @@ def summary_table(aggs, runs, version, bench, num_font="source-serif"):
                           f'text-anchor="middle" {num}>{a["resolved"]}/{a["trials"]}</text>')
                     sq, gap = 6, 2
                     sx = cx(j) - (a["trials"] * (sq + gap) - gap) / 2
-                    unsolved = a["trials"] - a["resolved"]
-                    for q in range(a["trials"]):
+                    for q, t in enumerate(trial_groups[ds, h, s]):
                         qx, qy = sx + q * (sq + gap), y + 28
-                        if q < a["resolved"]:
-                            f.add(f'<rect x="{qx:.1f}" y="{qy}" width="{sq}" height="{sq}" fill="{HOSTS[h]["color"]}"/>')
-                        elif q >= a["resolved"] + unsolved - a["timeouts"]:
-                            f.add(f'<rect x="{qx + 0.6:.1f}" y="{qy + 0.6}" width="{sq - 1.2}" height="{sq - 1.2}" fill="#FFFFFF" '
-                                  f'stroke="{RED}" stroke-width="1.2"/>')
-                        else:
-                            f.add(f'<rect x="{qx:.1f}" y="{qy}" width="{sq}" height="{sq}" fill="#DADCE0"/>')
+                        violated = bool(t.get("rule_violation"))
+                        contaminated = bool(t.get("answer_key_contamination"))
+                        statuses = ["solved" if t["resolved"] else "not solved"]
+                        if t["timed_out"]:
+                            statuses.append("stopped at the time limit")
+                        if violated:
+                            statuses.append("confirmed rule violation: " + t["rule_violation"])
+                        if contaminated:
+                            statuses.append("confirmed answer-content contamination: " + t["answer_key_contamination"])
+                        title = f'{h} / {s} / {t["task"]} / run {t["rep"]}: ' + "; ".join(statuses)
+                        f.add(f'<g class="trial" data-job={quoteattr(t["job"])} data-resolved="{str(bool(t["resolved"])).lower()}" '
+                              f'data-timeout="{str(bool(t["timed_out"])).lower()}" '
+                              f'data-rule-violation="{str(violated).lower()}" data-contamination="{str(contaminated).lower()}">'
+                              f'<title>{escape(title)}</title>')
+                        task_square(f, qx, qy, HOSTS[h]["color"], t["resolved"], t["timed_out"], violated or contaminated)
+                        f.add('</g>')
                     continue
                 if ri == 3:
                     f.add(f'<text x="{cx(j):.1f}" y="{base}" font-size="14" fill="{C["ink"]}" text-anchor="middle" {num}>'
@@ -477,6 +524,8 @@ def summary_table(aggs, runs, version, bench, num_font="source-serif"):
         (14, arrow("down"), "cheaper than solo"),
         (14, arrow("up"), "costlier than solo"),
     ]
+    if audited:
+        key.insert(3, (12, square(RED), "rule violation / contamination"))
     draw_footer(f, dim_y, key_y, notes_y, dimension(aggs, dss), key, notes, note_rows, row_lines)
     return render(f, H, num_font)
 
@@ -739,8 +788,8 @@ def main(argv):
   viz-svg.py bench/results/v1/data.json --out /tmp/v1    redraws the v1 table elsewhere
 
 for agents:
-  - A published version is never edited: do not write into bench/results/v1/ or another published
-    version's directory. The first run downloads the number font (pinned, about 1.2 MB).""",
+  - Change a published version only for an explicitly approved, documented erratum or supplement.
+    The first run downloads the number font (pinned, about 1.2 MB).""",
         formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("data", type=Path, help="the version's data.json (viz-data.py)")
     ap.add_argument("--out", type=Path, help="output directory (default: the directory of data.json)")
@@ -757,9 +806,11 @@ for agents:
     runs = sorted((r for r in doc["runs"] if r["host"] in HOSTS), key=lambda r: list(HOSTS).index(r["host"]))
     out.mkdir(parents=True, exist_ok=True)
     aggs = [a for a in doc["aggregates"] if a["agy_staff"] == version and a["host"] in HOSTS]
+    trials = [t for t in doc["trials"] if t["agy_staff"] == version and t["host"] in HOSTS]
     figures = {"summary": summary_table} | (CHARTS if args.charts else {})
     for name, draw in figures.items():
-        (out / f"{name}.svg").write_text(draw(aggs, runs, version, bench))
+        kwargs = {"trials": trials} if name == "summary" else {}
+        (out / f"{name}.svg").write_text(draw(aggs, runs, version, bench, **kwargs))
     print(f"wrote {', '.join(f'{n}.svg' for n in figures)} to {out} (agy-staff Bench {bench}, agy-staff {version})", file=sys.stderr)
 
 
